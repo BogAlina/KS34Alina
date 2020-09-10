@@ -11,7 +11,7 @@ srand(time(0));
     for(int i = 0; i<N; i++){
     for(int j = 0; j<N; j++){
         arr[i][j]=0+rand()%11;
-        cout << arr[i][j] << "\tttt";
+        cout << arr[i][j] << "\t";
 }
 cout << "\n";
 }
